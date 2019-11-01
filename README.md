@@ -1,3 +1,3 @@
-<h1 align="center">
+<p align="center">
   Starter for the official Gatsby blog theme customized
-</h1>
+</p>
