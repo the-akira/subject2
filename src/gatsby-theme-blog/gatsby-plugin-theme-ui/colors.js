@@ -6,20 +6,22 @@ import defaultThemeColors from "gatsby-theme-blog/src/gatsby-plugin-theme-ui/col
  * Try uncommenting the color overrides below
  * to go from default purple to a blue theme
  */
-
-// const darkBlue = `#007acc`
-// const lightBlue = `#66E0FF`
-// const blueGray = `#282c35`
+const blueGray = `#282c35`
+const white = `#cccccc`
 
 export default merge(defaultThemeColors, {
-  // text: blueGray,
-  // primary: darkBlue,
-  // heading: blueGray,
-  // modes: {
-  //   dark: {
-  //     background: blueGray,
-  //     primary: lightBlue,
-  //     highlight: lightBlue,
-  //   },
-  // },
+    heading: white,
+    text: white,
+    background: blueGray,
+    primary: white,
+    highlight: white,
+  modes: {
+    dark: {
+      text: blueGray,
+      primary: blueGray,
+      heading: blueGray,
+      highlight: blueGray,
+      background: white,
+    },
+  },
 })
