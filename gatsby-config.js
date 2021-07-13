@@ -9,15 +9,15 @@ module.exports = {
   siteMetadata: {
     title: `<Akira experiment 2 />`,
     author: `Gabriel Felippe`,
-    description: `My site description...`,
+    description: `Blog de Computação & Programação`,
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
+        url: `https://twitter.com/akirascientist`,
       },
       {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/the-akira`,
       },
     ],
   },
