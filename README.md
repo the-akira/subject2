@@ -10,7 +10,6 @@
     git clone https://github.com/the-akira/subject2.git
     ```
 
-
 2.  **Install Packages**
 
     Navigate into the site’s directory and:
@@ -26,6 +25,7 @@
     ```shell
     gatsby develop
     ```
+
 4.  **Build**
 
     Navigate into the site’s directory and build it up.
