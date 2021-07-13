@@ -8,6 +8,7 @@
 
     ```shell
     git clone https://github.com/the-akira/subject2.git
+    ```
 
 
 2.  **Install Packages**
